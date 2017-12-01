@@ -1,0 +1,47 @@
+.bg{
+     background-image: url("bg.jpg");
+        background-repeat: no-repeat;
+        background-size: cover;
+        position: relative;
+        right: 0;
+        bottom: 0;
+        min-width: 100%;
+        min-height: 100%;
+        width: auto;
+        height: auto;
+        z-index: -100;
+}
+
+.heading{
+    text-align:center;
+    font-family:oswald;
+    background-color: rgb(48, 45, 45);
+    color: white;
+}
+
+.click{
+    text-align: right;
+    font-family: oswald;
+    padding-right:25px;
+    color:black;
+}
+.container{
+    padding-Top:60px;
+}
+.postpage_head{
+    text-align:center;
+    font-family:oswald;
+    padding-top:10px;
+}
+.postpage_body{
+    text-align:center;
+    font-family:oswald;
+    padding-top:50px;
+}
+label{
+    font-family:oswald;
+    font-size: 25px;
+}
+
+
+
