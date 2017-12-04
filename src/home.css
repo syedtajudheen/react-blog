@@ -24,7 +24,9 @@
     font-family: oswald;
     padding-right:25px;
     color:black;
+    text-decoration: none;
 }
+
 .container{
     padding-Top:60px;
 }
@@ -41,6 +43,10 @@
 label{
     font-family:oswald;
     font-size: 25px;
+}
+.postbg{
+    margin : 10px auto;
+    
 }
 
 

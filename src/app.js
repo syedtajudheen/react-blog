@@ -7,14 +7,15 @@ import { BrowserRouter, Switch, Route, Link } from 'react-router-dom';
 
 class App extends React.Component{
     render(){
-        return (<BrowserRouter>
+        return (<BrowserRouter >
                     <div>
                         <Nav />
-                        <Switch>
-                            <Route path='/Home' component={Home}></Route>
+                        
+                        <Switch> 
+                            <Route exact path='/' component={Home}></Route>
                             <Route path='/Post' component={Post}></Route>
                         </Switch>
-
+                
                     </div>
                </BrowserRouter>
         );

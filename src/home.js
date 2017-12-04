@@ -30,13 +30,15 @@ class FetchPost extends React.Component {
             .then( (response) => {
                 console.log(response.data);
                 const post = response.data.map((item,i) => {
-                    return(<div>
-                        
-                        <h3> <i className="fa fa-user-circle" aria-hidden="true"></i> &ensp;
-                            {item.title}
-                        </h3>
-                        <p>{item.body}</p> <br />
-                        </div>);
+                    return(<div className="postbg">
+                                <h3> 
+                                    <i className="fa fa-user-circle" aria-hidden="true"></i> &ensp;
+                                    {item.title}
+                                </h3> <hr />
+                                <p>
+                                    {item.body}
+                                </p> <br />
+                            </div>);
                 });
                 this.setState({ posts: post});
                 console.log({post});
@@ -50,7 +52,6 @@ class FetchPost extends React.Component {
         return (
             <div>
                 {this.state.posts}
-               
             </div>
         );
     }
